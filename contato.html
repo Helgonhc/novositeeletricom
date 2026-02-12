@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Entre em contato com a Eletricom. Manutenção especializada em Belo Horizonte. Fale com nossa equipe técnica.">
+    <title>Contato - Eletricom</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="http://www.eletricom.me/wp-content/uploads/2018/01/logo_eletricom_branco.png"
+                            alt="Eletricom Logo">
+                    </a>
+                </div>
+
+                <ul class="nav__menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aeletricom.html">A Eletricom</a></li>
+                    <li><a href="sistema.html">Sistema</a></li>
+                    <li><a href="contratos.html">Contratos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+
+                <button class="nav__toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title Section -->
+    <section class="page-title-section">
+        <div class="container">
+            <h1 class="page-title">CONTATO</h1>
+            <p style="color: var(--white); margin-top: 1rem; font-size: 1.1rem; opacity: 0.9;">
+                Estamos prontos para atender suas necessidades de manutenção especializada.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="features">
+        <div class="container">
+            <div class="features__grid" style="margin-bottom: var(--spacing-xl);">
+                <!-- BH Office -->
+                <div class="contact-card reveal reveal--delay-1">
+                    <div class="contact-card__icon"><i class="fas fa-building"></i></div>
+                    <h3>Matriz Belo Horizonte</h3>
+                    <div class="divider"></div>
+                    <p><i class="fas fa-user"></i> Anderson Diniz</p>
+                    <p><i class="fas fa-phone"></i> (031) 2572-0156 - <i class="fas fa-mobile-alt"></i> <a
+                            href="https://wa.me/553196178844" target="_blank">(31)
+                            99617-8844 <i class="fa-brands fa-whatsapp"></i></a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:contato@eletricom.me">contato@eletricom.me</a>
+                    </p>
+                </div>
+
+                <!-- Diretoria -->
+                <div class="contact-card reveal reveal--delay-2">
+                    <div class="contact-card__icon"><i class="fas fa-user-gear"></i></div>
+                    <h3>OPERAÇÕES MG</h3>
+                    <div class="divider"></div>
+                    <p><i class="fas fa-user"></i> Helgon Henrique</p>
+                    <p><i class="fas fa-mobile-alt"></i> <a href="https://wa.me/5531997705904" target="_blank">(31)
+                            99770-5904</a> - <a href="https://wa.me/553199333-8026" target="_blank">(31) 99333-8026 <i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </p>
+                    <p><i class="fas fa-envelope"></i> <a
+                            href="mailto:operacaomg@eletricom.me">operacaomg@eletricom.me</a></p>
+                </div>
+            </div>
+
+            <!-- Contact Form Header -->
+            <div style="text-align: center; margin-bottom: var(--spacing-md);">
+                <h2 class="section-title">Deixe sua mensagem</h2>
+                <div class="divider"></div>
+                <p class="section-description">Em breve retornamos o contato.</p>
+            </div>
+
+            <!-- Contact Form Wrapper -->
+            <div class="reveal"
+                style="max-width: 800px; margin: 0 auto; background: #f8fafb; padding: var(--spacing-md); border-radius: 12px; box-shadow: var(--shadow);">
+                <form action="https://formsubmit.co/contato@eletricom.me" method="POST" id="contactForm"
+                    class="contact-form-standalone">
+                    <!-- Form Configuration -->
+                    <input type="hidden" name="_cc" value="operacaomg@eletricom.me">
+                    <input type="hidden" name="_subject" value="Mensagem Direta - Site Eletricom">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://eletricom.me/">
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="form-group">
+                            <label for="name" style="color: var(--dark-gray);">Seu nome (obrigatório)</label>
+                            <input type="text" id="name" name="your-name" required placeholder="Nome completo"
+                                style="background: white; color: var(--dark-gray); border-color: #ddd;">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="color: var(--dark-gray);">Seu e-mail (obrigatório)</label>
+                            <input type="email" id="email" name="your-email" required placeholder="exemplo@email.com"
+                                style="background: white; color: var(--dark-gray); border-color: #ddd;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" style="color: var(--dark-gray);">Assunto</label>
+                        <input type="text" id="subject" name="your-subject" placeholder="Assunto da mensagem"
+                            style="background: white; color: var(--dark-gray); border-color: #ddd;">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" style="color: var(--dark-gray);">Sua mensagem</label>
+                        <textarea id="message" name="your-message" rows="6" placeholder="Escreva sua mensagem aqui..."
+                            style="background: white; color: var(--dark-gray); border-color: #ddd;"></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-primary btn-large glow-on-hover">ENVIAR MENSAGEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Optional placeholder if they want a map later) -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">
+                2026 © Desenvolvido por <a href="https://wa.me/5531997705904" target="_blank">Helgon Henrique <i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

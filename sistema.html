@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sistema de Gerenciamento de Medições - SGM é uma plataforma desenvolvida pela Eletricom para facilitar o gerenciamento do consumo de energia.">
+    <title>Sistema - Eletricom</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.eletricom.me/wp-content/uploads/2018/01/cropped-favicon_eletricom-32x32.png"
+        sizes="32x32">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="http://www.eletricom.me/wp-content/uploads/2018/01/logo_eletricom_branco.png"
+                            alt="Eletricom" width="265" height="68">
+                    </a>
+                </div>
+
+                <ul class="nav__menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aeletricom.html">A Eletricom</a></li>
+                    <li><a href="sistema.html" class="active">Sistema</a></li>
+                    <li><a href="contratos.html">Contratos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+
+                <button class="nav__toggle" id="navToggle">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-title-section">
+        <div class="container reveal">
+            <h1 class="page-title">Sistema de Gerenciamento de Medições</h1>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="about-sgm">
+        <div class="container reveal">
+            <h2 class="section-title">Sistema de telemedições de energia e água</h2>
+            <div class="divider"></div>
+
+            <div class="features__grid" style="margin-top: var(--spacing-lg);">
+                <div class="feature-card reveal reveal--delay-1">
+                    <div class="feature-card__icon"><i class="fas fa-eye"></i></div>
+                    <h3>Acompanhamento da Leitura</h3>
+                    <p>
+                        O SGM (Sistema de Gerenciamento de Medições) é uma plataforma que foi desenvolvida para atender
+                        às
+                        necessidades de nossos clientes, visando facilitar o gerenciamento do consumo de energia.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal--delay-2">
+                    <div class="feature-card__icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Gerenciamento do Consumo</h3>
+                    <p>
+                        A plataforma registra e armazena os consumos de 5 em 5 minutos, permitindo os gestores um fiel
+                        acompanhamento do consumo de energia de sua empresa.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal--delay-3">
+                    <div class="feature-card__icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <h3>Faturas e Financeiro</h3>
+                    <p>
+                        Os supervisores poderão cadastrar valores em R$ para cada Kwh conforme os valores regidos pelas
+                        concessionárias, além de outros custos envolvidos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acompanhamento da Leitura Section -->
+    <section class="features">
+        <div class="container reveal">
+            <h2 class="section-title">Acompanhamento da Leitura</h2>
+            <div class="divider"></div>
+
+            <div class="image-box" style="margin-top: var(--spacing-md);">
+                <img src="https://www.eletricom.me/wp-content/uploads/2021/01/tela-plataforma.png"
+                    alt="Tela da Plataforma SGM">
+            </div>
+            <p class="section-description">
+                Na aba Home, o gestor visualizará através dos Card's a leitura de cada medidor em Kwh.
+                Estes valores também estarão na tela (visor) do medidor de energia.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gerenciamento do Consumo Section -->
+    <section class="features features--alt">
+        <div class="container reveal">
+            <h2 class="section-title">Gerenciamento do Consumo</h2>
+            <div class="divider"></div>
+
+            <div class="image-box" style="margin-top: var(--spacing-md);">
+                <img src="https://www.eletricom.me/wp-content/uploads/2020/01/Background-1.png"
+                    alt="Gerenciamento de Consumo">
+            </div>
+            <p class="section-description">
+                Com os recursos e filtros ativos, o locatário poderá acompanhar o consumo a cada hora do dia, ou
+                semana, mês e até mesmo ano.
+            </p>
+        </div>
+    </section>
+
+    <!-- Faturas Section -->
+    <section class="features">
+        <div class="container reveal">
+            <h2 class="section-title">Financeiro & Demanda</h2>
+            <div class="divider"></div>
+
+            <div class="features__grid" style="margin-top: var(--spacing-lg);">
+                <div class="feature-card reveal reveal--delay-1">
+                    <h3>Tarifas Personalizadas</h3>
+                    <p>
+                        Cadastre as tarifas de energia no horário fora de ponta (HFP) e no horário de ponta (HP) de
+                        forma independente para cada unidade.
+                    </p>
+                </div>
+                <div class="feature-card reveal reveal--delay-2">
+                    <h3>Rateio de Impostos</h3>
+                    <p>
+                        Cadastre custos envolvidos com impostos, taxa de iluminação comum e outras despesas que são
+                        rateadas de maneira justa.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-box" style="margin-top: var(--spacing-lg);">
+                <img src="https://www.eletricom.me/wp-content/uploads/2020/01/Background-3.png"
+                    alt="Demanda Contratada">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container reveal">
+            <h2>Interessado no Sistema de Gerenciamento de Medições?</h2>
+            <a href="contato.html" class="btn btn-primary btn-large glow-on-hover">
+                Solicite uma Demonstração
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">
+                2026 © Desenvolvido por <a href="https://wa.me/5531997705904" target="_blank">Helgon Henrique <i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
