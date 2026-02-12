@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 
 <head>
+    <link rel='icon' href='cropped-favicon_eletricom-32x32.png' sizes='32x32' />
+    <link rel='icon' href='cropped-favicon_eletricom-192x192.png' sizes='192x192' />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -65,7 +67,7 @@
                 <!-- BH Office -->
                 <div class="contact-card reveal reveal--delay-1">
                     <div class="contact-card__icon"><i class="fas fa-building"></i></div>
-                    <h3>Matriz Belo Horizonte</h3>
+                    <h3 class="text-neon">Matriz Belo Horizonte</h3>
                     <div class="divider"></div>
                     <p><i class="fas fa-user"></i> Anderson Diniz</p>
                     <p><i class="fas fa-phone"></i> (031) 2572-0156 - <i class="fas fa-mobile-alt"></i> <a
@@ -78,7 +80,7 @@
                 <!-- Diretoria -->
                 <div class="contact-card reveal reveal--delay-2">
                     <div class="contact-card__icon"><i class="fas fa-user-gear"></i></div>
-                    <h3>OPERAÇÕES MG</h3>
+                    <h3 class="text-neon">OPERAÇÕES MG</h3>
                     <div class="divider"></div>
                     <p><i class="fas fa-user"></i> Helgon Henrique</p>
                     <p><i class="fas fa-mobile-alt"></i> <a href="https://wa.me/5531997705904" target="_blank">(31)
@@ -140,13 +142,59 @@
 
     <!-- Map Section (Optional placeholder if they want a map later) -->
 
+    <!-- Logo Grid Footer (Global) -->
+
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p class="footer__copyright">
-                2026 © Desenvolvido por <a href="https://wa.me/5531997705904" target="_blank">Helgon Henrique <i
-                        class="fa-brands fa-whatsapp"></i></a>
-            </p>
+        <div class="container footer__container"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; text-align: left; padding: 4rem 0;">
+            <div class="footer__brand">
+                <img src="http://www.eletricom.me/wp-content/uploads/2018/01/logo_eletricom_branco.png" alt="Eletricom"
+                    class="footer__logo" style="max-width: 180px; margin-bottom: 1.5rem;">
+                <p style="color: var(--c-text-muted); font-size: 0.9rem; line-height: 1.6;">Especialistas em manutenção
+                    elétrica crítica, predial e industrial desde 2008.</p>
+                <div class="footer__socials" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                    <a href="#" style="color: var(--c-primary); font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+                    <a href="#" style="color: var(--c-primary); font-size: 1.2rem;"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://wa.me/5531984741856" target="_blank"
+                        style="color: var(--c-primary); font-size: 1.2rem;"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer__nav">
+                <h4 style="color: var(--c-white); margin-bottom: 1.5rem;">Navegação</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.8rem;"><a href="index.html"
+                            style="color: var(--c-text-muted); text-decoration: none;">Home</a></li>
+                    <li style="margin-bottom: 0.8rem;"><a href="aeletricom.html"
+                            style="color: var(--c-text-muted); text-decoration: none;">A Eletricom</a></li>
+                    <li style="margin-bottom: 0.8rem;"><a href="servicos.html"
+                            style="color: var(--c-text-muted); text-decoration: none;">Serviços</a></li>
+                    <li style="margin-bottom: 0.8rem;"><a href="contratos.html"
+                            style="color: var(--c-text-muted); text-decoration: none;">Contratos</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h4 style="color: var(--c-white); margin-bottom: 1.5rem;">Contato</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.8rem; color: var(--c-text-muted);"><i class="fas fa-phone"
+                            style="color: var(--c-primary); margin-right: 10px;"></i> (31) 2572-0156</li>
+                    <li style="margin-bottom: 0.3rem; color: var(--c-text-muted);"><i class="fas fa-envelope"
+                            style="color: var(--c-primary); margin-right: 10px;"></i> contato@eletricom.me</li>
+                    <li style="margin-bottom: 0.8rem; color: var(--c-text-muted); padding-left: 28px;">
+                        operacaomg@eletricom.me</li>
+                    <li style="margin-bottom: 0.8rem; color: var(--c-text-muted);"><i class="fas fa-location-dot"
+                            style="color: var(--c-primary); margin-right: 10px;"></i> Contagem, MG</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom"
+            style="padding: 2rem 0; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+            <div class="container">
+                <p style="color: var(--c-text-muted); font-size: 0.8rem;">2026 © Desenvolvido por <a
+                        href="https://wa.me/5531997705904" target="_blank"
+                        style="color: var(--c-primary); text-decoration: none;">Helgon Henrique <i
+                            class="fa-brands fa-whatsapp"></i></a></p>
+            </div>
         </div>
     </footer>
 

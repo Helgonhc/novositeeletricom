@@ -1,0 +1,46 @@
+### Mapeamento de 39 Clientes (Eletricom)
+
+**Categoria: LOG Condomínios (24)**
+1. LOG Betim (MG)
+2. LOG Contagem III (MG)
+3. LOG Gaiolli (Guarulhos/SP)
+4. LOG Hortolândia (SP)
+5. LOG I Business Park (Contagem/MG)
+6. LOG II Business Park (Contagem/MG)
+7. LOG Jundiaí (SP)
+8. LOG Londrina (PR)
+9. LOG Papa João Paulo I (Guarulhos/SP)
+10. LOG Sim BH II (MG)
+11. LOG Sumaré (SP)
+12. LOG Sim BH I (MG)
+13. LOG Pouso Alegre 01 (MG)
+14. LOG Pouso Alegre 02 (MG)
+15. LOG Belém (PA)
+16. LOG Campo Grande (MS)
+17. LOG Campos I e II (RJ)
+18. LOG Cuiabá (MT)
+19. LOG Goiânia II (Hidrolândia/GO)
+20. LOG Goiânia III (GO)
+21. LOG Itatiaia (RJ)
+22. LOG Natal (RN)
+23. LOG São José dos Pinhais (PR)
+24. LOG Uberaba (MG)
+
+**Categoria: Condomínios Empresariais (7)**
+25. Álamo Business Park
+26. Business Park Elmo Braz
+27. Centerlog
+28. Residencial Hydra
+29. Pouso Alegre 01 (Logístico)
+30. RC Polos Empresariais
+31. Via Minas (Empreendimentos)
+
+**Categoria: Empresas e Parceiros (8)**
+32. Biohosp Produtos Hospitalares
+33. BTS Mall
+34. Contagem IV SPE
+35. DAC Distribuidora
+36. Drogaria Araujo S/A
+37. Mercado Livre (PIB)
+38. Sempre Soluções
+39. Tecpet Transportes

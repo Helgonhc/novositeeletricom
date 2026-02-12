@@ -108,7 +108,7 @@ const initMap = () => {
 
     // Update counter in UI
     const counter = document.getElementById('mapPlacesCount');
-    if (counter) counter.innerText = `${places.length} Unidades`;
+    // if (counter) counter.innerText = `${places.length} Unidades`;
 
     // Initialize Map
     const map = L.map('map', {
